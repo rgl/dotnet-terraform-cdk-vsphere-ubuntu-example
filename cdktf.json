@@ -1,0 +1,13 @@
+{
+    "language": "csharp",
+    "app": "dotnet run -p Example.csproj",
+    "terraformProviders": [
+        "template@2.2.0",
+        "vsphere@2.0.2"
+    ],
+    "terraformModules": [],
+    "context": {
+        "excludeStackIdFromLogicalIds": "true",
+        "allowSepCharsInLogicalIds": "true"
+    }
+}

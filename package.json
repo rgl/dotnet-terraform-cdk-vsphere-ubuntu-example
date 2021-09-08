@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "cdktf get && dotnet build",
+    "synth": "cdktf synth"
+  },
+  "dependencies": {
+    "cdktf-cli": "^0.5.0"
+  }
+}

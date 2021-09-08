@@ -1,0 +1,10 @@
+node_modules/
+bin/
+obj/
+.gen/
+.vscode/
+.terraform
+cdktf.out
+cdktf.log
+*terraform.*.tfstate*
+secrets*
